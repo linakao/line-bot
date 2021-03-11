@@ -40,7 +40,7 @@ def handle_message(event):
     msg = event.message.text
     r = '很抱歉 我看不太懂你說什麼:<'
 
-    if msg == ['嗨', 'HI', 'hi', 'Hi', '哈囉', '你好']:
+    if ['嗨', 'HI', 'hi', 'Hi', '哈囉', '你好'] in msg:
         r = '安妞~ 我是聊天機器人'
     elif '愛你' in msg:
         r = 'love you <3'
