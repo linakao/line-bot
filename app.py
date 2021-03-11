@@ -41,7 +41,7 @@ def handle_message(event):
     r = '很抱歉 我看不太懂你說什麼:<'
 
     if '貼圖' in msg:
-        sticker_message = StickerSendMessage(
+        StickerSendMessage(
             package_id='11537',
             sticker_id='52002742'
         )
